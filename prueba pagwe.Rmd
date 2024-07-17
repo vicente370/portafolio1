@@ -1,0 +1,31 @@
+---
+title: "Untitled"
+author: "Isidora Montes, Antonia Stuardo, Vicente Catalan"
+date: "2024-07-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+---
+title: "Mi Página Web"
+author: "Autor"
+output:
+  html_document:
+    theme: cerulean
+    highlight: tango
+    toc: true
+    toc_float: true
+    css: styles.css
+---
+
+## Introducción
+
+Este es un ejemplo de una página web generada con R Markdown.
+
+## Sección 1
+
+```{r}
+# Código R para mostrar en la página
+summary(cars)
